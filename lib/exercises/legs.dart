@@ -19,8 +19,8 @@ class LegPage extends StatelessWidget {
 
   final List<Exercise> exercises = const [
     Exercise(
-      name: 'Dips',
-      imageUrl: 'assets/gifs/squat.gif',
+      name: 'Femme-Lunges',
+      imageUrl: 'assets/gifs/parts/legs/femmelunges.gif',
       sets: 3,
       reps: 12,
     ),
@@ -31,14 +31,14 @@ class LegPage extends StatelessWidget {
       reps: 15,
     ),
     Exercise(
-      name: 'Wide-Squats',
-      imageUrl: 'assets/gifs/squat.gif',
+      name: 'Bar-Squats',
+      imageUrl: 'assets/gifs/parts/legs/legbarsquats.gif',
       sets: 3,
       reps: 15,
     ),
     Exercise(
-      name: 'Lunges',
-      imageUrl: 'assets/gifs/squat.gif',
+      name: 'Buff Leg-Lifts',
+      imageUrl: 'assets/gifs/parts/legs/legsittingleglifts.gif',
       sets: 3,
       reps: 12,
     ),

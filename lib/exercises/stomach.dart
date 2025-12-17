@@ -19,8 +19,8 @@ class StomachPage extends StatelessWidget {
 
   final List<Exercise> exercises = const [
     Exercise(
-      name: 'Sit-Ups',
-      imageUrl: 'assets/gifs/situps.gif',
+      name: 'Dead-Bug',
+      imageUrl: 'assets/gifs/parts/stomach/stomachdeadbug.gif',
       sets: 3,
       reps: 12,
     ),
@@ -31,14 +31,14 @@ class StomachPage extends StatelessWidget {
       reps: 15,
     ),
     Exercise(
-      name: 'Push-ups',
-      imageUrl: 'assets/gifs/pushups.gif',
+      name: 'Bench-Leg Raise',
+      imageUrl: 'assets/gifs/parts/stomach/benchlegraises.gif',
       sets: 3,
       reps: 15,
     ),
     Exercise(
-      name: 'Abdominal-Crunches',
-      imageUrl: 'assets/gifs/situps.gif',
+      name: 'Side-Crunches',
+      imageUrl: 'assets/gifs/parts/stomach/sideplankdips.gif',
       sets: 3,
       reps: 12,
     ),

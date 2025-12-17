@@ -19,26 +19,26 @@ class ChestPage extends StatelessWidget {
 
   final List<Exercise> exercises = const [
     Exercise(
-      name: 'Push-Ups',
-      imageUrl: 'assets/gifs/pushups.gif',
+      name: 'Barbell-Lifts',
+      imageUrl: 'assets/gifs/parts/chest/barbell lifts.gif',
       sets: 3,
       reps: 12,
     ),
     Exercise(
-      name: 'Dumbell-Press',
-      imageUrl: 'assets/gifs/pushups.gif',
+      name: 'Inclined-Dumbell-Fly',
+      imageUrl: 'assets/gifs/parts/chest/inclineddumbellfly.gif',
       sets: 3,
       reps: 15,
     ),
     Exercise(
-      name: 'Wide-Press',
-      imageUrl: 'assets/gifs/pushups.gif',
+      name: 'Declined-Barbell',
+      imageUrl: 'assets/gifs/parts/chest/declinebarbell.gif',
       sets: 3,
       reps: 15,
     ),
     Exercise(
-      name: 'Chest-Dips',
-      imageUrl: 'assets/gifs/pushups.gif',
+      name: 'Chest-Stretcher',
+      imageUrl: 'assets/gifs/parts/chest/chest stretchers.gif',
       sets: 3,
       reps: 12,
     ),

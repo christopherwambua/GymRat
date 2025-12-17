@@ -19,26 +19,26 @@ class BackPage extends StatelessWidget {
 
   final List<Exercise> exercises = const [
     Exercise(
-      name: 'Back-ups',
-      imageUrl: 'assets/gifs/situps.gif',
+      name: 'Back-Bar Lifts',
+      imageUrl: 'assets/gifs/parts/back/backbarlifts.gif',
       sets: 3,
       reps: 12,
     ),
     Exercise(
-      name: 'Back-Downs',
-      imageUrl: 'assets/gifs/bicycle.gif',
+      name: 'Bar-Pull',
+      imageUrl: 'assets/gifs/parts/back/backbarpull.gif',
       sets: 3,
       reps: 15,
     ),
     Exercise(
-      name: 'Back-Ways',
-      imageUrl: 'assets/gifs/pushups.gif',
+      name: 'Dumbell-Pulls',
+      imageUrl: 'assets/gifs/parts/back/backdumbellpulls.gif',
       sets: 3,
       reps: 15,
     ),
     Exercise(
-      name: 'Back-Streets',
-      imageUrl: 'assets/gifs/situps.gif',
+      name: 'Inclined-Dumbellpulls',
+      imageUrl: 'assets/gifs/parts/back/backdumbellpulls.gif',
       sets: 3,
       reps: 12,
     ),
@@ -122,7 +122,7 @@ class BackPage extends StatelessWidget {
                       color: Colors.white,
                     ),
                   ),
-                    ),
+                ),
               ),
             ),
           ],

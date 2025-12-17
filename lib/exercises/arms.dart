@@ -19,26 +19,26 @@ class ArmsPage extends StatelessWidget {
 
   final List<Exercise> exercises = const [
     Exercise(
-      name: 'Dips',
-      imageUrl: 'assets/gifs/pushups.gif',
+      name: 'Arm bar lifts',
+      imageUrl: 'assets/gifs/parts/arms/armbarlifts.gif',
       sets: 3,
       reps: 12,
     ),
     Exercise(
-      name: 'Crunches',
-      imageUrl: 'assets/gifs/pushups.gif',
+      name: 'Bicep lifts',
+      imageUrl: 'assets/gifs/parts/arms/armbiceplifts.gif',
       sets: 3,
       reps: 15,
     ),
     Exercise(
-      name: 'Push-ups',
-      imageUrl: 'assets/gifs/pushups.gif',
+      name: 'Combined arm Lifts',
+      imageUrl: 'assets/gifs/parts/arms/armcombinedlifts.gif',
       sets: 3,
       reps: 15,
     ),
     Exercise(
-      name: 'Bicep Curls',
-      imageUrl: 'assets/gifs/pushups.gif',
+      name: 'Preacher Curls',
+      imageUrl: 'assets/gifs/parts/arms/armpreachercurl.gif',
       sets: 3,
       reps: 12,
     ),
@@ -136,11 +136,7 @@ class ExerciseCard extends StatelessWidget {
   final Exercise exercise;
   final int number;
 
-  const ExerciseCard({
-    super.key,
-    required this.exercise,
-    required this.number,
-  });
+  const ExerciseCard({super.key, required this.exercise, required this.number});
 
   @override
   Widget build(BuildContext context) {
@@ -150,11 +146,7 @@ class ExerciseCard extends StatelessWidget {
         color: const Color(0xFF3A3A3A),
         borderRadius: BorderRadius.circular(16),
         boxShadow: const [
-          BoxShadow(
-            color: Colors.black,
-            blurRadius: 8,
-            offset: Offset(0, 4),
-          ),
+          BoxShadow(color: Colors.black, blurRadius: 8, offset: Offset(0, 4)),
         ],
       ),
       child: Column(
