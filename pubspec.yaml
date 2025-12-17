@@ -70,7 +70,7 @@ flutter:
     - assets/images/handlifts.jpeg
     - assets/images/handdum.jpeg
     - assets/images/banner.jpeg
-    - assets/images/gymrats.jpeg
+    - assets/images/gymrato.png
     - assets/images/dietbp.jpeg
     - assets/images/construction.jpeg
     
@@ -81,49 +81,48 @@ flutter:
     - assets/gifs/situps.gif
     - assets/gifs/starjump.gif
   
-    -assets/gifs/parts/arms/armbarlifts.gif
-    -assets/gifs/parts/arms/armbiceplifts.gif
-    -assets/gifs/parts/arms/armcombinedlifts.gif
-    -assets/gifs/parts/arms/armpreachercurl.gif
-    -assets/gifs/parts/arms/armssleepinglifts.gif
-    -assets/gifs/parts/arms/armstretcherdips.gif
-    -assets/gifs/parts/arms/armpitlifts.gif
+    - assets/gifs/parts/arms/armbarlifts.gif
+    - assets/gifs/parts/arms/armbiceplifts.gif
+    - assets/gifs/parts/arms/armcombinedlifts.gif
+    - assets/gifs/parts/arms/armpreachercurl.gif
+    - assets/gifs/parts/arms/armssleepinglifts.gif
+    - assets/gifs/parts/arms/armstretcherdips.gif
+    - assets/gifs/parts/arms/armpitlifts.gif
 
-    -assets/gifs/parts/back/backbarlifts.gif
-    -assets/gifs/parts/back/backbarpull.gif
-    -assets/gifs/parts/back/backdumbellpulls.gif
-    -assets/gifs/parts/back/backinclineddumbellpulls.gif
-    -assets/gifs/parts/back/backsleepingdumbelllifts.gif
-    -assets/gifs/parts/back/backT Bar Rows.jpg
+    - assets/gifs/parts/back/backbarlifts.gif
+    - assets/gifs/parts/back/backbarpull.jpg
+    - assets/gifs/parts/back/backdumbellpulls.gif
+    - assets/gifs/parts/back/backinclineddumbellpulls.gif
+    - assets/gifs/parts/back/backsleepingdumbelllifts.gif
+    - assets/gifs/parts/back/backT_bar_rows.jpg
 
-    -assets/gifs/parts/chest/chest stretcher.gif
-    -assets/gifs/parts/chest/barbell lifts.gif
-    -assets/gifs/parts/chest/Decline Dumbell Fly.gif
-    -assets/gifs/parts/chest/declinebarbell.gif
-    -assets/gifs/parts/chest/inclineddumbellfly.gif
-    -assets/gifs/parts/chest/chest stretchers.gif
+    - assets/gifs/parts/chest/chest_stretcher.gif
+    - assets/gifs/parts/chest/barbell_lifts.gif
+    - assets/gifs/parts/chest/decline_dumbell_fly.gif
+    - assets/gifs/parts/chest/declinedbarbell.gif
+    - assets/gifs/parts/chest/inclineddumbellfly.gif
 
-    -assets/gifs/parts/fullbody/fb Dumbell Deadlift.gif
-    -assets/gifs/parts/fullbody/fbdumbellsquatraise.gif
-    -assets/gifs/parts/fullbody/fbdumbellsquats.gif
-    -assets/gifs/parts/fullbody/fbhighknees.gif
-    -assets/gifs/parts/fullbody/fbjumpers.gif
-    -assets/gifs/parts/fullbody/fbParsva Balasana.gif
-    -assets/gifs/parts/fullbody/gynoreps.gif
+    - assets/gifs/parts/fullbody/fb_dumbell_deadlift.gif
+    - assets/gifs/parts/fullbody/fbdumbellsquatraise.gif
+    - assets/gifs/parts/fullbody/fbdumbellsquats.gif
+    - assets/gifs/parts/fullbody/fbhighknees.gif
+    - assets/gifs/parts/fullbody/fbjumpers.gif
+    - assets/gifs/parts/fullbody/fb_Parsva_balasana.gif
+    - assets/gifs/parts/fullbody/gynoreps.gif
 
-    -assets/gifs/parts/legs/deadlift.gif
-    -assets/gifs/parts/legs/femmelunges.gif
-    -assets/gifs/parts/legs/legbarsquats.gif
-    -assets/gifs/parts/legs/legpivotsquats.gif
-    -assets/gifs/parts/legs/legrollers.gif
-    -assets/gifs/parts/legs/legsittingleglifts.gif
+    - assets/gifs/parts/legs/deadlift.gif
+    - assets/gifs/parts/legs/femmelunges.gif
+    - assets/gifs/parts/legs/legbarsquats.gif
+    - assets/gifs/parts/legs/legpivotsquats.gif
+    - assets/gifs/parts/legs/legrollers.gif
+    - assets/gifs/parts/legs/legsittingleglifts.gif
 
-    -assets/gifs/parts/stomach/benchlegraises.gif
-    -assets/gifs/parts/stomach/sideplankdips.gif
-    -assets/gifs/parts/stomach/stomachbenchtornado.gif
-    -assets/gifs/parts/stomach/stomachcablepulldowns.gif
-    -assets/gifs/parts/stomach/stomachcrosscrunch.gif
-    -assets/gifs/parts/stomach/stomachdeadbug.gif
+    - assets/gifs/parts/stomach/benchlegraises.gif
+    - assets/gifs/parts/stomach/sideplankdips.gif
+    - assets/gifs/parts/stomach/stomachbenchtornado.gif
+    - assets/gifs/parts/stomach/stomachcablepulldowns.gif
+    - assets/gifs/parts/stomach/stomachcrosscrunch.gif
+    - assets/gifs/parts/stomach/stomachDeadBug.gif
 
   
     
@@ -156,3 +155,7 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/gymrato.png"

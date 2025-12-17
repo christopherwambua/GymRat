@@ -25,8 +25,8 @@ class BackPage extends StatelessWidget {
       reps: 12,
     ),
     Exercise(
-      name: 'Bar-Pull',
-      imageUrl: 'assets/gifs/parts/back/backbarpull.gif',
+      name: 'Flat-Dumbell-Pulls',
+      imageUrl: 'assets/gifs/parts/back/backsleepingdumbelllifts.gif',
       sets: 3,
       reps: 15,
     ),
@@ -38,7 +38,7 @@ class BackPage extends StatelessWidget {
     ),
     Exercise(
       name: 'Inclined-Dumbellpulls',
-      imageUrl: 'assets/gifs/parts/back/backdumbellpulls.gif',
+      imageUrl: 'assets/gifs/parts/back/backinclineddumbellpulls.gif',
       sets: 3,
       reps: 12,
     ),

@@ -20,7 +20,7 @@ class StomachPage extends StatelessWidget {
   final List<Exercise> exercises = const [
     Exercise(
       name: 'Dead-Bug',
-      imageUrl: 'assets/gifs/parts/stomach/stomachdeadbug.gif',
+      imageUrl: 'assets/gifs/parts/stomach/stomachDeadBug.gif',
       sets: 3,
       reps: 12,
     ),

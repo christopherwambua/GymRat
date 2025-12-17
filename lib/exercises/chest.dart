@@ -20,7 +20,7 @@ class ChestPage extends StatelessWidget {
   final List<Exercise> exercises = const [
     Exercise(
       name: 'Barbell-Lifts',
-      imageUrl: 'assets/gifs/parts/chest/barbell lifts.gif',
+      imageUrl: 'assets/gifs/parts/chest/barbell_lifts.gif',
       sets: 3,
       reps: 12,
     ),
@@ -32,13 +32,13 @@ class ChestPage extends StatelessWidget {
     ),
     Exercise(
       name: 'Declined-Barbell',
-      imageUrl: 'assets/gifs/parts/chest/declinebarbell.gif',
+      imageUrl: 'assets/gifs/parts/chest/declinedbarbell.gif',
       sets: 3,
       reps: 15,
     ),
     Exercise(
       name: 'Chest-Stretcher',
-      imageUrl: 'assets/gifs/parts/chest/chest stretchers.gif',
+      imageUrl: 'assets/gifs/parts/chest/chest_stretcher.gif',
       sets: 3,
       reps: 12,
     ),
