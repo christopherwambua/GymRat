@@ -17,7 +17,7 @@ class Exercise {
 class ArmsPage extends StatelessWidget {
   const ArmsPage({super.key});
 
-  final List<Exercise> exercises = const [
+ static  final List<Exercise> exercises = const [
     Exercise(
       name: 'Arm bar lifts',
       imageUrl: 'assets/gifs/parts/arms/armbarlifts.gif',

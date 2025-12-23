@@ -11,26 +11,30 @@ class HomePage extends StatelessWidget {
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
-          Container(
-            height: 300,
-            // width:double.infinity,
-            //  color: Color(0xFF000000)
-            decoration: BoxDecoration(
-              image: DecorationImage(
-                image: AssetImage("assets/images/gymrat1.jpeg"),
-                fit: BoxFit.cover,
+          Expanded(
+            flex: 3,
+            child: Container(
+              // height: 300,
+              // width:double.infinity,
+              //  color: Color(0xFF000000)
+              decoration: BoxDecoration(
+                image: DecorationImage(
+                  image: AssetImage("assets/images/gymrat1.jpeg"),
+                  fit: BoxFit.cover,
+                ),
               ),
-            ),
-            alignment: Alignment.bottomLeft,
+              alignment: Alignment.bottomLeft,
 
-            child: Text(
-              'Lets get fit Today',
+              child: Text(
+                'Lets get fit Today',
 
-              textAlign: TextAlign.left,
-              style: TextStyle(
-                color: const Color.fromARGB(255, 248, 247, 247),
-                fontWeight: FontWeight.bold,
-                fontFamily: 'Holtwood One SC',
+                textAlign: TextAlign.left,
+                style: TextStyle(
+                  color: const Color.fromARGB(255, 248, 247, 247),
+                  fontWeight: FontWeight.bold,
+                  fontFamily: 'Rubik Wet Paint',
+                  fontSize: 22,
+                ),
               ),
             ),
           ),
@@ -57,21 +61,26 @@ class HomePage extends StatelessWidget {
           ),
 
           SizedBox(height: 10),
-          Container(
-            height: 300,
-            // color: Color.fromARGB(255, 44, 222, 8)
-            decoration: BoxDecoration(
-              image: DecorationImage(
-                image: AssetImage("assets/images/gymrat2.jpeg"),
-                fit: BoxFit.cover,
+          Expanded(
+            flex: 3,
+            child: Container(
+              // height: 300,
+              // color: Color.fromARGB(255, 44, 222, 8)
+              decoration: BoxDecoration(
+                image: DecorationImage(
+                  image: AssetImage("assets/images/gymrat2.jpeg"),
+                  fit: BoxFit.cover,
+                ),
               ),
-            ),
-            alignment: Alignment.topRight,
-            child: Text(
-              "lets gerrit!!",
-              style: TextStyle(
-                color: const Color.fromARGB(255, 244, 241, 241),
-                fontWeight: FontWeight.bold,
+              alignment: Alignment.topRight,
+              child: Text(
+                "lets gerrit!!",
+                style: TextStyle(
+                  color: const Color.fromARGB(255, 244, 241, 241),
+                  fontWeight: FontWeight.bold,
+                  fontFamily: 'Permanent Marker',
+                  fontSize: 22,
+                ),
               ),
             ),
           ),

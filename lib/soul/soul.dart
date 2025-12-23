@@ -232,7 +232,12 @@ class SectionHeader extends StatelessWidget {
           const SizedBox(height: 8),
           Text(
             subtitle!,
-            style: const TextStyle(fontSize: 16, color: Colors.grey),
+            style: const TextStyle(
+              fontSize: 16,
+              fontWeight: FontWeight.w600,
+              color: Color.fromARGB(255, 245, 243, 243),
+              fontFamily: 'Permanent Marker',
+            ),
           ),
         ],
       ],
@@ -322,93 +327,101 @@ class SoulScreen extends StatelessWidget {
         title: const Text('Soul & Wellness'),
         backgroundColor: Colors.deepPurple,
       ),
-      body: SingleChildScrollView(
-        padding: const EdgeInsets.all(16),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            const SectionHeader(
-              title: 'Nurture Your Inner Peace',
-              subtitle: 'Balance your mind, body, and spirit',
-            ),
-            const SizedBox(height: 24),
-            GridView.count(
-              shrinkWrap: true,
-              physics: const NeverScrollableScrollPhysics(),
-              crossAxisCount: 2,
-              mainAxisSpacing: 16,
-              crossAxisSpacing: 16,
-              childAspectRatio: 1.1,
-              children: [
-                FeatureCard(
-                  title: 'Sleep Tracker',
-                  icon: Icons.bedtime,
-                  color: Colors.indigo,
-                  onTap: () => Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) => const SleepTrackerScreen(),
+      body: Container(
+        decoration: BoxDecoration(
+          image: DecorationImage(
+            image: AssetImage('assets/images/soule.jpg'),
+            fit: BoxFit.cover,
+          ),
+        ),
+        child: SingleChildScrollView(
+          padding: const EdgeInsets.all(16),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              const SectionHeader(
+                title: 'Nurture Your Inner Peace',
+                subtitle: 'Balance your mind, body, and spirit',
+              ),
+              const SizedBox(height: 24),
+              GridView.count(
+                shrinkWrap: true,
+                physics: const NeverScrollableScrollPhysics(),
+                crossAxisCount: 2,
+                mainAxisSpacing: 16,
+                crossAxisSpacing: 16,
+                childAspectRatio: 1.1,
+                children: [
+                  FeatureCard(
+                    title: 'Sleep Tracker',
+                    icon: Icons.bedtime,
+                    color: Colors.indigo,
+                    onTap: () => Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => const SleepTrackerScreen(),
+                      ),
                     ),
                   ),
-                ),
-                FeatureCard(
-                  title: 'Meditation',
-                  icon: Icons.self_improvement,
-                  color: Colors.teal,
-                  onTap: () => Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) => const MeditationScreen(),
+                  FeatureCard(
+                    title: 'Meditation',
+                    icon: Icons.self_improvement,
+                    color: Colors.teal,
+                    onTap: () => Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => const MeditationScreen(),
+                      ),
                     ),
                   ),
-                ),
-                FeatureCard(
-                  title: 'Breathing',
-                  icon: Icons.air,
-                  color: Colors.cyan,
-                  onTap: () => Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) => const BreathingScreen(),
+                  FeatureCard(
+                    title: 'Breathing',
+                    icon: Icons.air,
+                    color: Colors.cyan,
+                    onTap: () => Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => const BreathingScreen(),
+                      ),
                     ),
                   ),
-                ),
-                FeatureCard(
-                  title: 'Wellness Tips',
-                  icon: Icons.lightbulb,
-                  color: Colors.amber,
-                  onTap: () => Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) => const WellnessTipsScreen(),
+                  FeatureCard(
+                    title: 'Wellness Tips',
+                    icon: Icons.lightbulb,
+                    color: Colors.amber,
+                    onTap: () => Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => const WellnessTipsScreen(),
+                      ),
                     ),
                   ),
-                ),
-                FeatureCard(
-                  title: 'Mood Journal',
-                  icon: Icons.book,
-                  color: Colors.pink,
-                  onTap: () => Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) => const MoodJournalScreen(),
+                  FeatureCard(
+                    title: 'Mood Journal',
+                    icon: Icons.book,
+                    color: Colors.pink,
+                    onTap: () => Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => const MoodJournalScreen(),
+                      ),
                     ),
                   ),
-                ),
-                FeatureCard(
-                  title: 'Gratitude',
-                  icon: Icons.favorite,
-                  color: Colors.red,
-                  onTap: () => Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) => const GratitudeScreen(),
+                  FeatureCard(
+                    title: 'Gratitude',
+                    icon: Icons.favorite,
+                    color: Colors.red,
+                    onTap: () => Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => const GratitudeScreen(),
+                      ),
                     ),
                   ),
-                ),
-              ],
-            ),
-          ],
+                ],
+              ),
+            ],
+          ),
         ),
       ),
     );
